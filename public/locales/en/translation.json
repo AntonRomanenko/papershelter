@@ -1,0 +1,55 @@
+{
+  "navLinks": {
+    "link-1": "purpose",
+    "link-2": "NFT",
+    "link-3": "the play",
+    "link-4": "about",
+    "link-5": "CONTACT US"
+  },
+
+  "threeStories": {
+    "st-1": "three eyewitnesses",
+    "st-11": "of the war",
+    "st-2": "three stories",
+    "st-22": "about life during the war",
+    "st-3": "and three diaries",
+    "st-33": "as a place to escape from the war",
+    "st-4": "this project shows the stories of eyewitnesses of the war to raise funds for the purchase of medical equipment to save the lives of those who could not be saved by their fragile paper shelters.",
+    "btn-st": "stories"
+  },
+
+  "consumption": {
+    "title": "what money is used for?",
+    "text-1": "All funds raised by this art-project will be used to purchase devices for vacuum wound therapy",
+    "text-11": " CONFORT NPWT C300, ",
+    "text-12": "each worth around ~$2000.",
+
+    "text-2": "Vacuum therapy devices are used for the treatment of shrapnel wounds. This is the most common type of injury among both soldiers and civilians in Ukraine. It is caused by uncountable bombs, winged rockets, and other types of missiles launched by Russian troops every day.",
+    "text-3": "Unfortunately, Ukrainian hospitals lack the equipment, that could save thousands of lives if it would be there.",
+    "text-4": "You can help by buying NFT of Yegors drawings or with a direct donation to our partner fund",
+    "text-41": "BeKind.ua.",
+    "donate-link": "Donate here"
+  },
+
+  "buyNFT": {
+    "nft-title": "buy NFT",
+    "nft-text-1": "paper / pen / Mariupol basement / 2022",
+    "nft-text-2": "8-year-old Yehor supplemented his diary with drawings, while his 100 days stay in the basement of his destroyed house in Mariupol.",
+    "nft-text-3": "You can find more of Yehor's drawings and purchase them as an NFT on OpenSea",
+    "nft-btn": "Buy NFT"
+  },
+
+  "warnotes": {
+    "director": "Director - Lisa Smith",
+    "playwright": "Playwright - Anastasia Kosodii",
+    "three-diaries": "In this play, three diaries are combined into one dramatic story of war, which chronologically will tell you about every day the authors lived through from the beginning of the war.",
+    "premiering": "The play is premiering in Amsterdam.",
+    "promo": "The first play reading will be held online by the author. Follow our updates to not miss out on release dates"
+  },
+
+  "footer": {
+    "contact-us": "Contact us",
+    "copy": "est. 2022 due to war in Ukraine"
+  }
+
+}

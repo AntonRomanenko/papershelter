@@ -1,25 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import "./index.scss";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Components/Navibar';
+import ThreeStories from './Components/ThreeStories';
+import Slider from './Components/Carousel'
+import Consumption from './Components/Consumption';
+import BuyNFT from './Components/BuyNft';
+import Warnotes from './Components/Warnotes';
+import Footer from './Components/Footer';
+import { Suspense } from 'react';
+import './i18n';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return ( 
+    <Suspense fallback={'Loading...'}>
+    <div>
+        <Header/>
+        <ThreeStories/>  
+        <Slider/>
+        <Consumption/>
+        <BuyNFT/>
+        <Warnotes/>
+        <Footer/>
     </div>
+    </Suspense> 
   );
 }
+
 
 export default App;

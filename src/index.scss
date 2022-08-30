@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  top: 0;
+  box-shadow: 0 13px 24px 0 rgba(0, 0, 0, 0.08);
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.navbar-wraper {
+  position: fixed;
+  width: 100%;
+  z-index: 111;
+}
+
+nav .navbar-collapse.collapse {
+  display: block;
+}
+
+@media (max-width: 991px) {
+  nav .navbar-collapse.collapse {
+    overflow: hidden;
+  }
+
+  nav .navbar-collapse.active {
+    height: 30vh !important;
+  }
+}
+
+nav .navbar-collapse {
+  transition: .6s all ease-in-out;
+  height: 0 !important;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+// .navbar {
+//   background-color: rgb(28, 28, 28) !important;
+// }
+
+.main-color {
+  background-color: #1c1c1c;
+}
+
+.MuiSvgIcon-root {
+  color: #fff;
+}
+
+.three-stories {
+  background-color: #1c1c1c;
+  color: #fff;
+  // height: 45vh;
+}
+
+.btn-white {
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #1C1C1C;
+  font-weight: 700;
+}
+
+.main-title {
+  padding-top: 175px;
+  font-weight: 300;
+
+  p {
+    span {
+      font-weight: 700;
+    }
+  }
+}
+
+.nft-bg {
+  background-color: #f5f7fb;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 12px;
+}
+
+.translate {
+  border: none;
+  color: #fff;
+  background-color: transparent;
+
+  img {
+    width: 20px;
+
+  }
+}
+
+.slider-egor,
+.slider-katia,
+.slider-stas {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+.slider-egor {
+  background-image: url(../src/img/egor.jpg);
+}
+
+.slider-katia {
+  background-image: url(../src/img/katia.jpg);
+}
+
+.slider-stas {
+  background-image: url(../src/img/stas.jpg);
+}
+
+.slider-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+
+  &__img {
+    width: fit-content;
+    height: 120px;
+    max-width: 100%;
+  }
+
+  &__title {
+    font-size: 45px;
+    line-height: 52px;
+    color: #fff;
+
+    @media (max-width: 768px) {
+      font-size: 30px;
+      line-height: normal;
+    }
+  }
+
+  &__text {
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff;
+
+    @media (max-width: 768px) {
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+  }
+
+  &__flag {
+    width: 40px;
+    margin-bottom: 50px;
+  }
+}
+
+.row-gap {
+  row-gap: 30px;
+}
+
+.contact-us {
+  width: 112px;
+  text-align: center;
+}
+
+.nav-link {
+  min-width: 75px;
+  text-align: center;
+}
